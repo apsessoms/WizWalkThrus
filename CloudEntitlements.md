@@ -1,6 +1,6 @@
 # Wiz Cloud Entitlements
 
-Wiz is a Cybersecurity platform that provides various types of solutions of which can include tools to address identity and access risks as well as cloud entitlements. This is a## brief overview from my sandbox to give a slight preview of what Wiz can offer in terms of securing a cloud environment. 
+Wiz is a Cybersecurity platform that provides various types of solutions of which can include tools to address identity and access risks as well as cloud entitlements. This is a brief overview from my sandbox to give a slight preview of what Wiz can offer in terms of securing a cloud environment. 
 
 ## Identify inactive Administrators & Groups
 
@@ -21,3 +21,13 @@ It is critical to identify and delete privileged accounts as former employees an
 If you have development teams that use access tokens or long term keys instead of the cloud native IAM there is a chance they could be misconfgured. In the screenshot below, you can see how WIZ identifies compute resources with no IAM that are either active or inactive as well as what cloud platform they are associated with.
 
 ![Alt text](image-3.png)
+
+## Find lateral movement paths to administrators
+
+This can help detect the paths that attackers can potentially gain administrative permissions to your cloud environments with. It works by selecting one or more workload resources such as a VM, user account, or service accounts for example and shows you the "path"  could use to the administrator that would allow an attacker to gain full control over a cloud environment.  
+
+![Alt text](image-4.png)
+
+In traditional on-premises data centers, security was often focused on network perimeters. However, in cloud environments, identities have become the new perimeter for managing resource access. This shift introduces new security challenges, including potential exploits of misconfigured permissions, unintended public access, and weak identity authentication.
+
+These are just a few of the features offered by WIZ that can offer inisght into your cloud environment that will allow you to effectively addreess and identity and access risks as well as manage cloud entitlements to enhance the security of cloud environments. 
